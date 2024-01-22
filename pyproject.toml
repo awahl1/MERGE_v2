@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "MERGE"
+version = "1.0.0"
+description = "Python implementation of MERGE algorithm"
+authors = ["Alex Wahl <awahl1@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+pandas = "*"
+numpy = "*"
+
+[tool.poetry.group.test.dependencies]
+pytest = "*"
+
+[tool.poetry.group.dev.dependencies]
+ipython = "*"
+ipykernel = "*"
